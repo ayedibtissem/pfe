@@ -11,7 +11,7 @@ import Robot from './Components/robot';
 import SelectedQuiz from './Components/selectedCategory';
 import QuizPage from './Components/selectedCategory';
 import Dashboard from './Components/dashboard';
-import UserManagement from './Components/usermanagement';
+
 import QuizManager from './Components/quizmanagement';
 
 function App() {
@@ -52,9 +52,7 @@ function App() {
     {
       path:'/dashboard',
       element:<Dashboard></Dashboard>
-    }, {
-      path:'/users',
-      element:<UserManagement></UserManagement>
+  
     },{
       path:'/quizz',
       element:<QuizManager></QuizManager>
